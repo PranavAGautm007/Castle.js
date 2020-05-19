@@ -29,7 +29,8 @@ function setup(){
     rect13= new Rect(427,354.5,20,50);
     rect14= new Rect(427,320,50,20);
     ground = new Ground(200,390,900,20);
-triangle1= new Triangle(250,200,3,50);
+triangle1= new Triangle(178,2.5,3,30);
+triangle2= new Triangle(233,38,3,29);
 
     
 }
@@ -55,6 +56,6 @@ function draw(){
     rect13.display();
     rect14.display();
     triangle1.display();
-
+    triangle2.display();
     ground.display();
 }
